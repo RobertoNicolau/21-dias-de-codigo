@@ -63,7 +63,8 @@ p {
 }
 
 h1 {
-  font-size: 4rem;
+  padding-bottom: 1.5rem;
+  font-size: 3rem;
 }
 
 h1 strong {
@@ -107,8 +108,8 @@ button:active {
 }
 
 img {
-  width: 20rem;
-  height: 20rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 .particle-js {
@@ -122,7 +123,6 @@ img {
   position: absolute;
   width: 30rem;
   height: 30rem;
-  z-index: 4;
 
   display: flex;
   justify-content: center;
@@ -133,6 +133,7 @@ img {
   border-radius: 2rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
+  z-index: 4;
 }
 
 .sidebar .text{
